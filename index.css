@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div#app {
+    padding: 20px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+input#text {
+    margin-bottom: 20px;
+    height: 35px;
+    border-radius:6px;
+    text-indent: 10px;
+    border: 1px solid #acacac;
+    outline: none;
+}
+
+button {
+    background-color: yellowgreen;
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+button:active {
+    transform: scale(.5);
+}
+
+td > button {
+    width: 60px;
+}
