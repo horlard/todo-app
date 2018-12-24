@@ -12,6 +12,7 @@ div#app {
 td {
     border: 1px solid #ccc;
     padding: 10px;
+    
 }
 input#text {
     margin-bottom: 20px;
@@ -37,6 +38,26 @@ button {
 
 button:active {
     transform: scale(.5);
+}
+tr {
+    animation-name: moveleft;
+    animation-duration: .3s;
+
+
+}
+@keyframes moveleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    50% {
+        transform: translateX(8px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 td > button {
